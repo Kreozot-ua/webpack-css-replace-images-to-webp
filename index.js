@@ -1,4 +1,4 @@
-export default class WebpackCssReplaceImagesToWebp {
+class WebpackCssReplaceImagesToWebp {
     apply(compiler) {
         compiler.hooks.emit.tapAsync(
             'WebpackCssReplaceImagesToWebp',
@@ -19,3 +19,5 @@ export default class WebpackCssReplaceImagesToWebp {
         );
     }
 }
+
+module.exports = WebpackCssReplaceImagesToWebp;

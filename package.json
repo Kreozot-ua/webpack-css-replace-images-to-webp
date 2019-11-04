@@ -1,5 +1,5 @@
 {
-  "name": "@_kreozot/webpack-css-replace-images-to-webp",
+  "name": "webpack-css-replace-images-to-webp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Kreozot-ua/webpack-css-replace-images-to-webp.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yevhen Rybak <kreozot93@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Kreozot-ua/webpack-css-replace-images-to-webp/issues"
   },
-  "homepage": "https://github.com/Kreozot-ua/webpack-css-replace-images-to-webp#readme"
+  "homepage": "https://github.com/Kreozot-ua/webpack-css-replace-images-to-webp#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
